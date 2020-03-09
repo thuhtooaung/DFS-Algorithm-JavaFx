@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DFS-Algorithm.jnlp">
+  <information>
+    <title>DFS-Algorithm</title>
+    <vendor>Thuhtooaung</vendor>
+    <description>DFS-Algorithm</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DFS-Algorithm.jar" size="8018" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="dfs.algorithm.DFSAlgorithm"  name="DFS-Algorithm" />
+  <update check="background"/>
+</jnlp>

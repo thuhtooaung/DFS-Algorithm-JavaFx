@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="617.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dfs.algorithm.MainFXMLController">
+   <children>
+      <Label layoutX="305.0" layoutY="81.0" text="Depth First Search Algorithm Simulation" />
+      <Label layoutX="139.0" layoutY="299.0" text=" Number of Vertices :" />
+      <Label fx:id="nov" layoutX="320.0" layoutY="299.0" />
+      <Label layoutX="145.0" layoutY="343.0" text="Edges :" />
+      <Label fx:id="edg" layoutX="234.0" layoutY="343.0" />
+      <Label layoutX="144.0" layoutY="382.0" text="Starting node :" />
+      <Label fx:id="stn" layoutX="279.0" layoutY="382.0" />
+      <Label layoutX="145.0" layoutY="150.0" text="Enter the number of Vertices :" />
+      <TextField fx:id="vertex" layoutX="377.0" layoutY="145.0" />
+      <Button fx:id="addVer" layoutX="643.0" layoutY="145.0" mnemonicParsing="false" onAction="#addVertex" text="Add" />
+      <Label layoutX="146.0" layoutY="198.0" text="Enter edges :" />
+      <TextField fx:id="edge" layoutX="377.0" layoutY="193.0" promptText="eg: 0,1 (parent,child)" />
+      <Button fx:id="addEdge" layoutX="643.0" layoutY="193.0" mnemonicParsing="false" onAction="#addEdges" text="Add" />
+      <Label layoutX="144.0" layoutY="246.0" text="Enter Starting Node :" />
+      <TextField fx:id="startNode" layoutX="377.0" layoutY="241.0" />
+      <Button fx:id="addNode" layoutX="643.0" layoutY="241.0" mnemonicParsing="false" onAction="#addStartNode" text="Add" />
+      <Button fx:id="simulate" disable="true" layoutX="300.0" layoutY="444.0" mnemonicParsing="false" onAction="#simulateDFS" text="Simulate Depth First Search Algorithm" />
+      <Label layoutX="45.0" layoutY="552.0" text="Result ( Depth First Search Traversal )   :" />
+      <Label fx:id="min" layoutX="740.0" layoutY="198.0" text="MIN :" />
+      <Label fx:id="Result" layoutX="394.0" layoutY="552.0" text="Result.." />
+   </children>
+</AnchorPane>
